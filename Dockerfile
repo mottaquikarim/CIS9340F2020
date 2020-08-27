@@ -6,7 +6,7 @@ COPY . .
 # Auto restart
 RUN go get github.com/githubnemo/CompileDaemon
 
-ENV STA9760F2020_DEBUG 1
+ENV CIS9340F2020_DEBUG 1
 
 # This is your actual go file
 RUN go build -o build/site_builder cmd/site_builder/main.go

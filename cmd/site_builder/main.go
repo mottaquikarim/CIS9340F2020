@@ -12,7 +12,7 @@ import (
 // these are the key variables that store the input
 // required to make this service run
 var (
-	fs    = flag.NewFlagSetWithEnvPrefix(os.Args[0], "STA9760F2020", 0)
+	fs    = flag.NewFlagSetWithEnvPrefix(os.Args[0], "CIS9340F2020", 0)
 	debug = fs.Bool("debug", false, "Turn on debugging output")
 )
 
